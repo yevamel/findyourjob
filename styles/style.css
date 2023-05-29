@@ -1,3 +1,20 @@
+
+@import "/styles/header.css";
 body {
-    font-family: 'Fira Sans', sans-serif;;
+  font-family: "Fira Sans", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #111238;
+
+}
+.wrapper {
+  width: 1176px;
+  margin: 0 auto;
+}
+.button {
+  padding: 15px 30px;
+  background: #1A75E8;
+  border-radius: 5px;
+  color: #FFFF;
 }

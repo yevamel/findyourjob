@@ -1,0 +1,68 @@
+.header {
+    padding-top: 45px;
+}
+/*стилі для хедер-нав*/
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.header-nav-list {
+    display: flex;
+    gap: 20px;
+}
+.header-nav-list li:hover {
+  color: #1A75E8;
+}
+.header-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+/*стилі для хедер маігн*/
+.header-main {
+   display:  flex;
+   align-items: center;
+   gap: 130px;
+}
+.header-main-card {
+display: flex;
+gap: 10px;
+}
+.header-card-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+    margin-bottom: 15px;
+}
+.header-card-text {
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 30px;
+    
+}
+.header-cart-search {
+    background: #fff;
+    border: 1px solid rgba(red, green, blue, alpha) ;
+    box-shadow: opx 4px 25pc rgba(red, green, blue, alpha);
+    border-radius: 5px;
+    padding: 10px 10px 10px 25px;
+    margin-bottom: 25px;
+}
+.search-input {
+    border: none;
+    outline: none;
+}
+.search-button {
+    font-size: 16px;
+    line-height: 19px;
+}
+.search-button::before {
+    content: url (search (1)png)
+}
+.header-example-item {
+padding: 5px;
+border: 1px solid #b2b2b2;
+border-radius: 5px;
+}
